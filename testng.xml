@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+ 
+<suite name="selenium-testng-demo" verbose="1" >
+    <parameter name="browser" value="chrome" />
+    <parameter name="firefox" value="/Applications/Firefox.app/Contents/MacOS/firefox" />
+    <parameter name="firefoxDriver" value="geckodriver" />
+    <parameter name="chrome" value="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" />
+    <parameter name="chromeDriver" value="chromedriver" />
+    <parameter name="homePage" value="https://netbeans.org/" />
+  <test name="GUI">
+    <packages>
+      <package name="com.gopi.selenium.testng" />
+   </packages>
+ </test>
+</suite>
