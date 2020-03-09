@@ -2,7 +2,7 @@ package com.gopi.selenium.testng;
 
 /**
  *
- * @author srinivasgopinathp
+ * @author Srinivas Gopinath Parimi
  */
 public class TestAutomation {
     public static void main(String[] args) {
